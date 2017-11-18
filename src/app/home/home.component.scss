@@ -1,0 +1,46 @@
+
+
+
+app-home {
+display: grid;
+grid-template-columns: repeat(auto-fit, 1fr);
+grid-gap: 20px;
+}
+
+
+body#background {
+    background: url("../../assets/Splash.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    }
+
+.card {
+        border-style: solid;
+        background-color: #0045F3;
+        opacity: 0.9;
+        border-radius: 30px;
+        color: rgb(155, 155, 155);
+        box-shadow: 3px 3px 3px;
+        padding: 5px 5px 5px 5px;
+        margin: 15px 15px 15px 15px;
+        font-size: auto;
+        font-family: 'Marcellus SC', serif;
+        width: auto;
+        height: auto;
+        
+    }
+
+    .card-title {
+      color: whitesmoke;
+      text-shadow: 3px 3px 3px #000;
+
+    }
+
+    #cardImage {
+        border-radius: 75px;
+        width: auto;
+        height: 400px;
+       justify-content: center;
+    }

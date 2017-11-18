@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {box-sizing: border-box;}
+
+*  {
+padding: 0;
+margin: 0;
+
+
+}
+
+body {
+font-family: 'Marcellus SC', serif;
+display: grid;
+
+}
+
+
+body#background {
+    font-family: 'Marcellus SC', serif;
+    background: url("./assets/Splash.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    }
